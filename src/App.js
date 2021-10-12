@@ -94,7 +94,7 @@ export default function App() {
 					<div className='grid grid-cols-2 md:grid-cols-3 gap-4 text-lg mt-2 mb-6'>
 						{values.map((value) => (
 							<button
-								className='bg-teal-new text-white font-bold rounded py-2 focus:bg-green-new focus:text-teal-new m-0'
+								className='bg-teal-new text-white font-bold rounded py-2 focus:outline-none focus:bg-green-new focus:text-teal-new m-0'
 								onClick={handleButton}
 								value={value}
 							>
@@ -156,7 +156,7 @@ export default function App() {
 
 					<button
 						type='submit'
-						className='w-full py-2 mt-auto rounded bg-green-new text-teal-new font-semibold text-center'
+						className='w-full py-2 mt-auto rounded bg-green-new focus:outline-none text-teal-new font-semibold text-center'
 					>
 						RESET
 					</button>
